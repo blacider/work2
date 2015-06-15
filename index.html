@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/ie.css">
+      <script type="text/javascript">
+          window.onload = function() {
+              document.getElementById('button-div').onclick = function() {
+                  document.getElementById('button-dom').click();
+              }
+          }
+      </script>
+    <![endif]-->
+    <!--[if gte IE 9]>
+      <link rel="stylesheet" type="text/css" href="css/notie.css">
+    <![endif]-->
+    <!--[if !IE]><!-->
+      <link rel="stylesheet" type="text/css" href="css/notie.css">
+    <!--<![endif]-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+  <div class="header">
+  	<div class="main-block">
+  		<div class="home-logo"></div>
+  		<div class="header-link">
+  			<ul>
+  				<li><a href="#price">价格</a></li>
+  				<li><a href="#">Blog</a></li>
+  				<li id="min-margin"><a href="#">登录</a></li>
+  				<li class="header-button ie-button1"><a href="#sign">申请试用</a></li>
+  			</ul>
+  		</div>
+  	</div>
+  </div>
+  <div class="block1 block">
+  	<div class="main-block">
+  		<div class="block1-content">
+  			<div class="block1-text1"></div>
+  			<div class="block1-text2"></div>
+  			<div class="block1-button ie-button2"><a href="#sign">申请试用</a></div>
+  		</div>
+  	</div>
+  </div>
+  <div class="block2 block">
+  	<div class="main-block">
+  		<div class="block2-left">
+  			<div class="block2-left-img"></div>
+  			<div class="block2-left-text">
+  			  <p>云报销专注于解决</p>
+  			  <p>中小企业财务报销问题</p>
+  			</div>
+  		</div>
+  		<div class="block2-right">
+  			<div class="block2-right-content block2-right-1">
+  				<div class="block2-right-content-img1 icon"></div>
+  				<div class="block2-right-content-text">
+  					<p class="block2-right-text1">同时支持多个平台</p>
+  					<p class="block2-right-text2">Android, ios, Web</p>
+  				</div>
+  			</div>
+  			<div class="block2-right-content block2-right-2">
+  				<div class="block2-right-content-img2 icon"></div>
+  				<div class="block2-right-content-text">
+  					<p class="block2-right-text1">云存储数据</p>
+  					<p class="block2-right-text2">再也不用担心数据丢失</p>
+  				</div>
+  			</div>
+  			<div class="block2-right-content block2-right-3">
+  				<div class="block2-right-content-img3 icon"></div>
+  				<div class="block2-right-content-text">
+  					<p class="block2-right-text1">财务软件对接</p>
+  					<p class="block2-right-text2">支持与金蝶、用友、银行等多种系统对接</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <div class="block3">
+  	<div class="main-block">
+  		<div class="block3-title"><h1>全新的报销体验</h1></div>
+  		<div class="block3-main">
+  			<div class="block3-content block3-content1">
+  			  <div id="white-phone" class="block3-content-img"></div>
+  			  <div class="block3-text">
+  			    <p class="block3-content-text1">随时，随地</p>
+  			    <p class="block3-content-text2">快速添加消费<br>
+  			    随时提交审批<br>记录不在麻烦</p>
+  			  </div>
+  			  
+  		    </div>
+  		    <div class="block3-content block3-content2">
+  			  <div id="black-phone" class="block3-content-img"></div>
+  			  <div class="block3-text">
+  			    <p class="block3-content-text1">实时，简捷</p>
+  			    <p class="block3-content-text2">便捷归档消费记录<br>
+  			    实时查询报销进度<br>规范公司财务流程</p>
+  			  </div>
+  		    </div>
+  		    <div class="block3-content block3-content3">
+  			  <div id="white-pc" class="block3-content-img"></div>
+  			  <div class="block3-text">
+  			    <p class="block3-content-text1">清晰，直观</p>
+  			    <p class="block3-content-text2">查看公司分类支出<br>
+  			    定制多种统计图表<br>迅速定位每笔消费</p>
+  		      </div>
+  		    </div>
+  		</div>
+  	</div>
+  </div>
+  <div id="price" class="block4">
+  	<div class="main-block">
+  		<h1 class="block4-title">价格一览</h1>
+  		<div class="block4-table">
+  			<table>
+  				<thead>
+  					<tr>
+  						<th></th>
+  						<th>
+  						  <p>免费<br class="for-phone">使用</p>
+  						  <p>10人以下</p>
+  						</th>
+  						<th>
+  						  <p>小型<br class="for-phone">组织</p>
+  						  <p>10-50人</p>
+  						</th>
+  						<th>
+  						  <p>中大型<br class="for-phone">企业</p>
+  						  <p>50人以上</p>
+  						</th>
+  					</tr>
+  				</thead>
+  				<tbody>
+  					<tr class="table-bg">
+  						<td>
+  							<p>多平台同步</p>
+  							<p>Andriod/ios/pc</p>
+  						</td>
+  						<td class="right"></td>
+  						<td class="right"></td>
+  						<td class="right"></td>
+  					</tr>
+  					<tr>
+  					    <td>
+  							<p>可对接个人账户</p>
+  							<p>支持微信发送报销申请</p>
+  							<p>支持支付宝、微信</p>
+  						</td>
+  						<td class="right"></td>
+  						<td class="right"></td>
+  						<td class="right"></td>
+  					</tr>
+  					<tr class="table-bg">
+  					    <td>
+  							<p>可对接企业网银、ERP</p>
+  						</td>
+  						<td></td>
+  						<td class="right"></td>
+  						<td class="right"></td>
+  					</tr>
+  					<tr>
+  					    <td><p>支持微信发送报销申请</p></td>
+  					    <td></td>
+  						<td class="right"></td>
+  						<td class="right"></td>
+  					</tr>
+  					<tr class="table-bg">
+  					    <td><p>可导出专业会计报表</p></td>
+  					    <td></td>
+  						<td class="right"></td>
+  						<td class="right"></td>
+  					</tr>
+  					<tr>
+  					    <td><p>提供会计财务咨询服务</p></td>
+  					    <td></td>
+  						<td></td>
+  						<td class="right"></td>
+  					</tr>
+  					<tr class="table-bg" id="table-foot">
+  						<td></td>
+  						<td><p>免费</p></td>
+  						<td><p>15元/人/月</p></td>
+  						<td><p>10元/人/月</p></td>
+  					</tr>
+  				</tbody>
+  			</table>
+  		</div>
+  		<p class="block4-text">在试用期申请使用的公司或组织，现阶段均可以免费使用。<br class="for-phone2">
+  		在产品正式上线后，我们还会提供12个月的免费使用。</p>
+  		<div class="block1-button id-button2"><a href="#sign">申请试用</a></div>
+  	</div>
+  </div>
+  <div class="block5">
+  	<div class="main-block">
+  		<div class="block5-left">
+  			<div class="block5-left-text block5-text">
+  				<p>“老板，有个小姑娘提了离职，还想去台湾，你说好不好呀？”</p>
+  				<p>“不吼呀！”</p>
+  				<p>“那现在这么快就说不好，会不会给人感觉就是，没有人情味啊？”</p>
+  				<p>“任何事情也是按照基本法，按照劳动法，刚才你问我，我可以说无可奉告，但你有不高兴，叫我怎么办？我意思不是说她肯定不能去，你问我支不支持，我说不支持！我就明确告诉你这一点。”</p>
+  			</div>
+  			<div id="triangle-topleft"></div>
+  			<div class="block5-contact">
+  				<div class="block5-img block5-img-1"></div>
+  				<div class="block5-contact-text">
+  					<p>高欣艺</p>
+  					<p>如数科技·产品狗</p>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="block5-right">
+  			<div class="block5-contact">
+  				<div class="block5-img block5-img-2"></div>
+  				<div class="block5-contact-text">
+  					<p>俊煜</p>
+  					<p>贵荚·男神</p>
+  				</div>
+  			</div>
+  			<div id="triangle-bottomright"></div>
+  			<div class="block5-right-text block5-text">
+  				<p>要知道猫是不是无聊，你得有足够的观察，根据观察，将猫仔们的行为进行归类，进而得知猫无聊的表现是怎样的，然后才能知道猫仔白天是不是很无聊，有多无聊，有多少时间在无聊。</p>
+  				<p>曾经有人问我“你不在家的时候，猫在做什么”，我想了想发现，我其实不知道。</p>
+  				<p>但实际上，重点是：我怎么既不在家又能观察到猫独自在家时候的情况呢？</p>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <div id="sign" class="block6">
+  	<div class="main-block">
+  		<form action="#" onsubmit="return check()">
+  			<div class="form-name">
+  				<p>称呼</p>
+  				<input type="text" name="name">
+          <p class="error">请输入称呼</p>
+  			</div>
+  			<div class="form-company">
+  				<p>公司名称</p>
+  				<input type="text" name="company">
+          <p class="error">请输入公司名称</p>
+  			</div>
+  			<div class="form-phone">
+  				<p>手机/邮箱</p>
+  				<input type="text" name="phone">
+          <p class="error">请输入手机或邮箱</p>
+          <p class="error">手机或邮箱输入格式有误</p>
+  			</div>
+  			<div id="button-div" class="form-submit ie-button2"><input id="button-dom" type="submit" value="申请试用"></div>
+  		</form>
+      <div class="success">
+        <img src="img/check@2x.png">
+        多谢支持云报销，我们会在1-2个工作日同你联系。
+      </div>
+  	</div>
+  </div>
+  <div class="footer">
+    <div class="main-block">
+      <div class="copyright">
+        <p class="footer-text">© 2014-2015 如数科技有限公司 / All Rights Reserved</p>
+      </div>
+  	  <div class="footer-link">
+  	  	<ul>
+  			<li><a href="#">关于我们</a></li>
+  			<li><a href="#">帮助中心</a></li>
+  			<li><a href="#">加入我们</a></li>
+  		</ul>
+  	  </div>
+  	  <div class="record">
+  		<p class="footer-text">京ICP备 14046885号-2</p>
+  	  </div>
+  	</div>
+  </div>
+</body>
+</html>
